@@ -62,6 +62,7 @@ func process(ban [][]string, koma []string, user int, inp []int) ([][]string, in
 		return ban, user
 	}
 
+	// 継続なら2を返す
 	return ban, 2
 
 }
